@@ -3,10 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My project</title>
+    <link rel="styleSheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        function openMenu(){
+            document.getElementById("men").style.display==="none"{
+                document.getElementById("men").style.display="flex"
+            }else{
+                document.getElementById("men").style.display="flex"
+            }
+        }
+    </script>
 </head>
 <body>
-    <h1>chandru</h1>
-    <h1>git line</h1>
+    <div class="nav">
+        <div class="head">
+            <h1>TRAVEL</h1>
+        </div>
+        <div id="men"     class="links">
+            <a href="#home ">HOME</a>
+            <a href=" #about">ABOUT</a>
+            <a href="#details ">DETAILS</a>
+            <a href="#services ">SERVICES</a>
+            <a href=" ">SIGIN</a>
+        </div>
+        <div class="hide">
+            <button onclick="openMenu"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </div>
+    <div class="container1" id="home">
+        <div class="tit">
+            <h2>TRAVEL WORLD</h2>
+            <h3>Let's Go Travel</h3>
+             <p>Tourism is the act of traveling to different places for leisure, exploration, or recreation. It involves visiting locations outside one's usual environment, often for purposes such as relaxation, cultural experiences, adventure, or business. Here are some key aspects of tourismTourism can lead to cultural exchange and awareness but may also result in challenges, such as cultural commodification or the dilution of local traditions. Responsible tourism practices aim to respect and preserve local cultures. </p>
+             <button class="tag1">View More</button>
+        </div>
+        <div class="img1">
+            <img src="./tra.jpg"/>
+        </div>
+    </div>
+    <div class="container2" id="about">
+        <div class="img2">
+            <img src="./tra2.jpg"/>
+        </div>
+        <div class="tit2">
+            <h2>Travel Wonderful Contries </h2>
+            <h3>switzerland</h3>
+            <p> Iconic mountain views, skiing, hiking, and charming car-free village atmosphere</p>
+            <h3>France</h3>
+            <p>Iconic landmarks like the Eiffel Tower, the Louvre Museum, and the Palace of Versailles.</p>
+            <h3>Spain</h3>
+            <p>Rich history, diverse landscapes, and vibrant culture.</p>
+            <h3>United States</h3>
+            <p> Varied landscapes, cultural diversity, and iconic cities.</p>
+            <h3>Thailand</h3>
+            <p>Beautiful beaches, rich culture, and delicious cuisine.</p>
+            <h3>United Kingdom</h3>
+            <p>London’s landmarks, the Scottish Highlands, and the historic sites of Bath and Stonehenge.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <h1>SERVICES</h1>
+    </div>
+    <div class="container4" id="services">
+        <div class="card1">
+            <h1>Accommodation</h1>
+            <p>Hotels Ranging from budget to luxury, offering various amenities</p>
+            <p>Hostels: Affordable shared lodging options, often popular with backpackers.</p>
+            <p>Vacation Rentals: Platforms like Airbnb offer unique stays in homes or apartments.</p>
+            <p>Resorts: All-inclusive options with extensive facilities and activities.</p>
+        </div>
+        <div class="card2">
+            <h1>Transportation</h1>
+            <p>Air Travel: Airlines providing domestic and international flights.</p>
+            <p>Ground Transportation: Buses, trains, taxis, ride-sharing services (like Uber), and rental cars.</p>
+            <p>Local Transit: Metro systems, trams, and public buses for getting around cities.</p>
+        </div>
+        <div class="card3">
+            <h1>Travel Agencies</h1>
+            <p>Tour Packages: Organized trips that include transportation, accommodation, and guided activities</p>
+            <p>Custom Itineraries: Personalized travel planning based on individual preferences.</p>
+            <p>Guided Tours: Expert-led tours that provide insights and context about destinations.</p>
+        </div>
+        <div class="card4">
+            <h1>Info Services</h1>
+            <p>Tourist Information Centers: Locations where visitors can get maps, brochures, and advice.</p>
+            <p>Visitor Apps: Mobile applications offering local information, attractions, and navigation assistance.</p>
+            <p>Websites Online resources providing travel tips, reviews, and destination guides.</p>
+        </div>
+    </div>
+    <div class="container5" id="details">
+        <div class="parent1">
+            <div class="child1">
+                <div class="con1">
+                     <h1>France</h1>
+                      <P>Attraction Place Eiffel Tower Ascend for panoramic views of the city.Louvre Museum: Explore art masterpieces, including the Mona Lisa Visit this iconic.</P>
+                      <p>Palace of Versailles: A UNESCO World Heritage site known for its opulent architecture and beautiful gardens. Plan to spend a day exploring the estate</p>
+                </div>
+                <div class="img2">
+                     <img src="./france.jfif"/>
+                </div>
+            </div>
+        </div>
+        <div class="parent2">
+            <div class="child2">
+                <div class="img3">
+                    <img src="./swi.jpg "/>
+                </div>
+                <div>
+                    <div class="con2">
+                        <h1>Switzerland</h1>
+                        <p>Old Town (Altstadt): Explore cobblestone streets, historic buildings, and the beautiful Grossmünster.
+                            Lake Zurich: Take a relaxing boat ride or walk along the promenade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parent3">
+            <div class="child3">
+                <div class="con3">
+                    <h1>LONDON</h1>
+                    <p>Buckingham Palace: Watch the Changing of the Guard ceremony.
+                        Westminster Abbey: Explore this historic church where many royals have been married and buried.</p>
+                    <p>Houses of Parliament and Big Ben: Take a stroll along the River Thames for great views.
+                        London Eye: Enjoy panoramic views of the city from this giant Ferris wheel.
+                    </p>
+                </div>
+                <div class="img4">
+                    <img src="./london.jfif"/>
+                </div>
+            </div>
+        </div>
+        <div class="parent4">
+            <div class="child4">
+                <div class="img5">
+                    <img src="./amrica.jfif"/>
+                </div>
+                <div class="con4">
+                    <h1>AMERICA</h1>
+                    <p>Statue of Liberty: Take a ferry to visit this iconic symbol of freedom.
+                        Central Park: Stroll through this vast green space, visit the Bethesda Terrace, and enjoy the views.</p>
+                    <p>Times Square: Experience the bright lights and bustling atmosphere.
+                        Broadway: Catch a show in the famous theater district.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container6">
+        <div class="info">
+            <h1>Address</h3>
+            <p> <i class="fa-solid fa-phone"></i>Anna Nagar,Chennai</p>
+            <p> Call for instant help</p>
+            <p>7411551536</p>
+        </div>
+        <div class="link">
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497511.23106585274!2d79.8793347410795!3d13.047985943115949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1727880421408!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="whatsapp">
+            <a href="https://web.whatsapp.com/"><img src="./what2.jfif"/> </a>
+            <a href="https://www.instagram.com/"><img src="./instagram.jfif"></a>
+            <a href="https://www.facebook.com/"><img src="./face.jfif"/></a>
+            <a href="https://telegram.org/"><img src="./tele.jfif"/></a>
+        </div>
+    </div>
 </body>
 </html>
